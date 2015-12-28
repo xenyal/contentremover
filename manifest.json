@@ -18,7 +18,12 @@
          ]
       }
    ],
+   "icons": {
+      "16": "assets/black-icon-v.png",
+      "48": "assets/black-icon-v.png",
+      "128": "assets/black-icon-v.png"
+   },
    "browser_action":{
-      "default_icon":"black-icon-v.png"
+      "default_icon":"assets/black-icon-v.png"
    }
 }
