@@ -1,7 +1,7 @@
 {
-   "name":"contentremover",
-   "description":"Remove specific web content targeting markup ID by user input",
-   "version":"1.0",
+   "name":"FacebookLikeRemover",
+   "description":"Removes Facebook Likes on the client side",
+   "version":"2.0",
    "manifest_version":2,
    "background": {
       "scripts": [
