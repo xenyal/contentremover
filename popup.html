@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body { 
+                min-width: 420px; 
+                overflow-x: hidden; 
+                font-family: Arial, sans-serif; 
+                font-size: 12px; 
+            }
+            input, textarea { 
+                width: 420px; 
+            }
+            input#save { 
+                font-weight: bold; width: auto; 
+            }
+        </style>
+        <script src="popup.js"></script>
+    </head>
+    <body>
+        <form id="deletecontent">
+            <p><label for="TargetClass">Class Name</label><br />
+            <input type="text" id="classname" name="classname" size="50" value="" /></p>
+            <p>
+                <input id="save" type="submit" value="Delete content" />
+                <span id="status-display"></span>
+            </p>
+        </form>
+    </body>
+</html>
